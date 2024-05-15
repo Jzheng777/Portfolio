@@ -1,10 +1,11 @@
 import React from 'react';
+import './Project.css'
 
 const Projects: React.FC = () => {
   return (
-    <div>
-      <h2>Projects</h2>
-      <p>Here are some of my projects.</p>
+    <div className='project'>
+      <h2>&lt;Project&gt;</h2>
+      <p>Power Chess:</p>
     </div>
   );
 }

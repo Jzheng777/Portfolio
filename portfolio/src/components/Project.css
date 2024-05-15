@@ -1,15 +1,11 @@
-.Home {
+.project {
     text-align: center;
     margin-top: 7%;
 }
 
-.Home h2 { 
+.project h2 {
     font-size: 40px;
+    margin-bottom: 7%;
     font-family: Bungee, FangSong;
 }
 
-.Home img {
-    height: 240px;
-    width: 300px;
-    border-radius: 20%;
-}

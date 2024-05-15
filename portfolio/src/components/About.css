@@ -1,0 +1,23 @@
+.About {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.About h2 { 
+    font-size: 40px;
+    font-family: Bungee, FangSong;
+    margin-bottom: 7%;
+}
+
+.para {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.para p {
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.75;
+    font-size: 16px;
+}
+
