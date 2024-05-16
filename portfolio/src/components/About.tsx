@@ -6,13 +6,17 @@ const About: React.FC = () => {
     <div className='About'>
       <h2>&lt;About Me&gt;</h2>
       <div className='para'>
-      <p>Hey there! I’m Jason Zheng, a recent Computer Science graduate from the University at Buffalo, The State University of New York.
-          Throughout my studies, I've honed my skills in web development, AI, and game design. Leading a team of five, 
-          I developed Power Chess, a Chinese chess website, where I focused on front-end development and deployment. 
-          In another project, I implemented Sarsa and Q-learning algorithms for optimal pathfinding in an AI environment.
-          With expertise in Python, JavaScript, and various web development tools, I’ve contributed to projects ranging from 
-          secure quiz apps to interactive games. I’m passionate about UI/UX design and thrive in collaborative environments.
-          Let’s connect and discuss how we can innovate together!</p>
+      <p>Hello! I'm Jason Zheng, a recent Computer Science graduate from the University at Buffalo. 
+        Specializing in web development, AI, and game design, I led a team to create Power Chess, 
+        a dynamic Chinese chess website. Handling everything from front-end development to deployment.
+        I also explored the world of AI and implemented Sarsa and Q-learning algorithms for pathfinding optimization on an environment.</p>
+
+        <p>Expanding further, I collaborated on a team to launch a gaming forum called Team Up 
+          with an XP-based ranking system, correlating XP with post likes to foster community engagement.
+          Moreover, users can seamlessly connect with like-minded gamers, fostering camaraderie. 
+          I have experience in Python, JavaScript, and various web development tools, 
+          I'm passionate about leveraging technology for impactful innovations. 
+          I'm excited to connect with like-minded individuals and organizations for collaboration and technological advancement.</p>
 
       </div>
     </div>

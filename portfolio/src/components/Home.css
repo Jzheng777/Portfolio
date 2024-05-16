@@ -1,15 +1,47 @@
 .Home {
-    text-align: center;
-    margin-top: 7%;
+    display: flex;
 }
 
-.Home h2 { 
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center h2 {
     font-size: 40px;
     font-family: Bungee, FangSong;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
-.Home img {
-    height: 240px;
-    width: 300px;
+.center img {
+    height: 300px;
+    width: 360px;
     border-radius: 20%;
+}
+
+.side-com {
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.intro {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.side-com span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.body {
+    width: 300px;
+    font-size: 17px;
 }

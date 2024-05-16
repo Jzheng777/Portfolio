@@ -1,11 +1,40 @@
 .project {
     text-align: center;
-    margin-top: 7%;
 }
 
 .project h2 {
     font-size: 40px;
-    margin-bottom: 7%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     font-family: Bungee, FangSong;
 }
 
+.project-wrap {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text {
+    margin-left: 10%;
+}
+
+.project img {
+    height: 400px;
+    width: 600px;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 7%;
+}
+
+.project p {
+    width: 450px;
+    font-size: 20px;
+    line-height: 1.75;
+    margin-top: 10%;
+}
