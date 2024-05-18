@@ -4,8 +4,8 @@
 
 .project h2 {
     font-size: 40px;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-bottom: 80px;
+    margin-top: 80px;
     font-family: Bungee, FangSong;
 }
 
@@ -37,4 +37,71 @@
     font-size: 20px;
     line-height: 1.75;
     margin-top: 10%;
+}
+
+@media (max-width: 1260px) {
+    .project img {
+        height: 300px;
+        width: 500px;
+    }
+
+    .project-name {
+        font-size: 20px;
+    }
+    
+    .project p {
+        font-size: 15px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .project img {
+        height: 200px;
+        width: 350px;
+        margin-left: 15%;
+    }
+    
+    .project p {
+        font-size: 12px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .project-wrap {
+        display: block;
+        text-align: center;
+    }
+
+    .project img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px;
+    }
+
+    .text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .project-name {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .project p {
+        margin: 10% auto 0;
+        width: 50%;
+        font-size: 16px;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 560px) {
+    .project p {
+        width: 70%;
+    }
 }

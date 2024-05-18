@@ -1,0 +1,46 @@
+.Home {
+
+}
+
+.center {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(120%, 15%);
+    text-align: center;
+}
+
+.center h2 {
+    font-size: 40px;
+    font-family: Bungee, FangSong;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.center img {
+    height: 300px;
+    width: 360px;
+    border-radius: 20%;
+}
+
+.side-com {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(30%, 120%);
+}
+
+.intro {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.side-com span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.body {
+    width: 300px;
+    font-size: 17px;
+}

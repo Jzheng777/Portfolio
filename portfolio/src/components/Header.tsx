@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -6,12 +6,23 @@ import './Header.css';
 import logo from '../pic/jz-icon.jpeg';
 
 const Header: React.FC = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <header className="header">
       <div className="logo">
         <Link to="/"><img src={logo} alt="Logo" /></Link>
       </div>
-      <div className='nav-container'>
+      <div className={`nav-container ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+        <div className="hamburger" onClick={toggleMobileMenu}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
         <nav className="nav">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About Me</Link>

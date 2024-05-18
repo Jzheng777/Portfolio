@@ -5,8 +5,8 @@
 .About h2 { 
     font-size: 40px;
     font-family: Bungee, FangSong;
-    margin-bottom: 6%;
-    margin-top: 6%;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .para {
@@ -22,3 +22,22 @@
     margin-bottom: 3%;
 }
 
+@media (max-width: 655px) {
+    .About h2 { 
+        font-size: 40px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+
+    .para p {
+        max-width: 400px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .para p {
+        max-width: 300px;
+        font-size: 12px;
+    }
+}
