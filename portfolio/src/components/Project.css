@@ -39,6 +39,16 @@
     margin-top: 10%;
 }
 
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.project-link:hover .project-name {
+    text-decoration: underline;
+}
+
 @media (max-width: 1260px) {
     .project img {
         height: 300px;
@@ -103,5 +113,9 @@
 @media (max-width: 560px) {
     .project p {
         width: 70%;
+    }
+
+    .project {
+        margin-bottom: 75px;
     }
 }

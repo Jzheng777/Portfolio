@@ -40,4 +40,8 @@
         max-width: 300px;
         font-size: 12px;
     }
+
+    .para {
+        margin-bottom: 75px;
+    }
 }

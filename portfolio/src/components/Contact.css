@@ -24,7 +24,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-45%, -40%);
+    transform: translate(-40%, -40%);
 }
 
 .contact-icon {
@@ -92,9 +92,20 @@
     .contacts {
         width: 250px;
     }
+  }
 
-    .contact h2 {
-        margin-bottom: 70px;
-        margin-top: 70px;
+@media (max-height: 750px) {
+    .contacts {
+        top: 0%;
+        left: 0%;
+        transform: translate(43%, 90%);
+    }
+  }
+
+  @media (max-height: 500px) {
+    .contacts {
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, 20%);
     }
   }

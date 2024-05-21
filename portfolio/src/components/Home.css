@@ -47,6 +47,7 @@
 .side-com span {
     font-weight: bold;
     font-size: 30px;
+    width: 500px;
 }
 
 .body {
@@ -67,8 +68,7 @@
     }
     
     .body {
-        width: 175px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
 }
@@ -80,12 +80,27 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 835px) {
     .hidden {
         display: flex;
+        align-items: center;
+        margin-bottom: 75px;
+        width: 300px;
+    }
+
+    .side-com {
+        margin-left: 0%;
+        margin-top: 15%;
+        width: 300px;
     }
 
     .shown {
         display: none;
+    }
+}
+
+@media (max-height: 500px) { 
+    .body {
+        width: 150px;
     }
 }
